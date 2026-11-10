@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #080808;
+    color: #eee;
+    font-family: Consolas, monospace;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 720px;
+}
+
+h1 {
+    font-size: 26px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+h1 span {
+    color: #ff3333;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+}
+
+.panel {
+    border: 1px solid #292929;
+    background: #0d0d0d;
+    padding: 25px;
+    border-radius: 6px;
+}
+
+.instructions {
+    color: #999;
+    font-size: 13px;
+    line-height: 2;
+}
+
+.instructions strong {
+    color: #eee;
+}
+
+button {
+    width: 100%;
+    padding: 16px;
+    margin-top: 22px;
+    border: 1px solid #ff3333;
+    background: #b51e1e;
+    color: white;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #e02a2a;
+}
+
+button:disabled {
+    opacity: .4;
+    cursor: not-allowed;
+}
+
+#device,
+#terminal {
+    display: none;
+}
+
+#device {
+    margin-top: 20px;
+}
+
+.info {
+    margin-top: 15px;
+    background: #080808;
+    border: 1px solid #292929;
+    padding: 15px;
+    font-size: 12px;
+    line-height: 2;
+    color: #aaa;
+}
+
+.connected {
+    color: #39d98a;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+#terminal {
+    margin-top: 25px;
+    border: 1px solid #292929;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.terminal-header {
+    padding: 12px;
+    background: #171717;
+    color: #888;
+    font-size: 11px;
+    border-bottom: 1px solid #292929;
+}
+
+#output {
+    padding: 17px;
+    height: 300px;
+    overflow-y: auto;
+    font-size: 12px;
+    line-height: 1.8;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+.green {
+    color: #39d98a;
+}
+
+.red {
+    color: #ff5555;
+}
+
+.gray {
+    color: #777;
+}
+
+.yellow {
+    color: #ffc857;
+}
+
+.footer {
+    text-align: center;
+    color: #444;
+    font-size: 10px;
+    margin-top: 25px;
+}
