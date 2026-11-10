@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080808">
+<title>SYSTEM REMOVAL</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>ADB<span></span>EXPLOIT</h1>
+    <div class="subtitle">ANDROID DEVICE MANAGEMENT INTERFACE</div>
+
+    <div class="panel">
+
+        <div id="instructions">
+            <div class="instructions">
+                <strong>INSTRUCTIONS</strong><br><br>
+                01. Use a chromium-based browser (Chrome, Edge)<br>
+                02. Connect your Android device using USB.<br>
+                03. Enable USB debugging in Developer Options.<br>
+                04. Approve the USB debugging authorization prompt.<br>
+                05. Wait for device detection.<br>
+                06. Initiate the operation.
+            </div>
+
+            <button id="connect">CONNECT DEVICE</button>
+        </div>
+
+        <div id="device">
+            <div class="connected">● CONNECTED TO DEVICE</div>
+
+            <div class="info" id="deviceInfo"></div>
+
+            <button id="initiate">INITIATE</button>
+        </div>
+
+        <div id="terminal">
+            <div class="terminal-header">
+                ROOT@ANDROID EXECUTION TERMINAL
+            </div>
+            <div id="output"></div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        ADB SYSTEM INTERFACE DEVICE MANAGEMENT
+    </div>
+
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
